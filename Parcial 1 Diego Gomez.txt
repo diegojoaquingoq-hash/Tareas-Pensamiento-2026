@@ -1,0 +1,19 @@
+numero = int(input("Ingresa un numero brou: "))
+n1 = numero // 100
+s1 = numero % 100
+n2 = s1 // 10
+n3 = s1 % 10
+
+if 100 <= numero <= 999:
+    if n1>n2 :
+            n1, n2 = n2, n1
+    if n2 > n3:
+            n2, n3 = n3, n2
+    if (n1 > n2):
+            n1, n2 = n2, n1
+            
+    print("Ascendente: ", n1, n2, n3)
+    print("Descendente: ", n3, n2, n1)
+
+else: 
+    print("No es de 3 Digitos")
