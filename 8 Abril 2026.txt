@@ -1,0 +1,13 @@
+#fruta=["fresa","mango","manzana"]
+#numeros=[1,2,3,4,5,6,7,8]
+#mixto=["fresa",1,2,"manzana"]
+
+#print(fruta[-2])
+
+#fruta.append("Banano")
+
+#print(fruta)
+
+#fruta.pop()
+
+#print(fruta)
